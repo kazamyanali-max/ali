@@ -1,0 +1,22 @@
+{
+  "name": "cafenet-time-fullstack",
+  "version": "1.0.0",
+  "description": "Premium React/Vite website and Node backend for کافی نت تایم",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "start": "node server.js",
+    "check": "node --check server.js && node --check src/data/siteData.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "framer-motion": "latest"
+  },
+  "devDependencies": {}
+}

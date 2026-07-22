@@ -1,0 +1,8 @@
+node_modules/
+npm-debug.log*
+.DS_Store
+.env
+
+# Local lead storage
+data/orders.json
+data/requests.json
